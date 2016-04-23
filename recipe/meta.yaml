@@ -1,4 +1,4 @@
-{% set version = "0.2" %}
+{% set version = "0.2.1" %}
 
 package:
     name: entrypoints
@@ -7,7 +7,7 @@ package:
 source:
     fn: {{ version }}.tar.gz
     url: https://github.com/takluyver/entrypoints/archive/{{ version }}.tar.gz
-    md5: bcbad7a52241a7e604657675f94f2f08
+    md5: e4c017e58c00d2e113e1deaf1f25e526
 
 build:
     number: 0
