@@ -5,7 +5,7 @@ Home: http://entrypoints.readthedocs.org/en/latest/
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Discover and load entry points from installed packages
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/entrypoints-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/entrypoints-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/entrypoints-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/entrypoints-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/entrypoints-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/entrypoints-feedstock/branch/master)
