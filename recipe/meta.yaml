@@ -1,8 +1,8 @@
 {% set name = "entrypoints" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set wheel_tag = "py2.py3-none-any" %}
 {% set fn = "{}-{}-{}.whl".format(name, version, wheel_tag) %}
-{% set sha256 = "0a0685962ee5ac303f470acbb659f0f97aef5b9deb6b85d059691c706ef6e45e" %}
+{% set sha256 = "10ad569bb245e7e2ba425285b9fa3e8178a0dc92fc53b1e1c553805e15a8825b" %}
 
 package:
     name: entrypoints
@@ -39,3 +39,4 @@ extra:
     - pelson
     - minrk
     - takluyver
+    - ocefpaf
