@@ -1,7 +1,7 @@
 About entrypoints
 =================
 
-Home: http://entrypoints.readthedocs.org/en/latest/
+Home: https://entrypoints.readthedocs.io/
 
 Package license: MIT
 
