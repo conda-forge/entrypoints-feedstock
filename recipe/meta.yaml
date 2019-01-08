@@ -10,9 +10,14 @@ source:
 
 build:
   number: 1000
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script:
+    - "flit build --format wheel"
+    - "{{ PYTHON }} -m pip install dist/*.whl --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
+  build:
+    - python >=3.6
+    - flit
   host:
     - python
     - pip
