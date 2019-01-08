@@ -12,7 +12,7 @@ build:
   number: 1000
   script:
     - "flit build --format wheel"
-    - "{{ PYTHON }} -m pip install dist/*.whl --no-deps --ignore-installed --no-cache-dir -vvv"
+    - "{{ PYTHON }} -m pip install dist/entrypoints-{{ version }}-py2.py3-none-any.whl --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
