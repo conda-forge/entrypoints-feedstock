@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 1002
+  number: 1003
   script:
     - "flit build --format wheel"
     - "{{ PYTHON }} -m pip install dist/entrypoints-{{ version }}-py2.py3-none-any.whl --no-deps --ignore-installed --no-cache-dir -vvv"
@@ -20,11 +20,10 @@ requirements:
     - python >=3.6
     - flit
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
-    - configparser >=3.5  # [py27]
+    - python >=3.6
 
 test:
   imports:
