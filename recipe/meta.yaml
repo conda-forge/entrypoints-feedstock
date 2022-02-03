@@ -11,17 +11,13 @@ source:
 build:
   noarch: python
   number: 0
-  script:
-    - flit build --format wheel
-    - {{ PYTHON }} -m pip install dist/entrypoints-{{ version }}-py2.py3-none-any.whl --no-deps --ignore-installed --no-cache-dir -vvv
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
-  build:
-    - python >=3.6
-    - flit
   host:
     - python >=3.6
     - pip
+    - flit
   run:
     - python >=3.6
 
