@@ -1,16 +1,16 @@
-{% set version = "0.4" %}
+{% set version = "0.4.1" %}
 
 package:
   name: entrypoints
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/e/entrypoints/entrypoints-{{ version }}.tar.gz
-  sha256: b706eddaa9218a19ebcd67b56818f05bb27589b1ca9e8d797b74affad4ccacd4
+  url: https://files.pythonhosted.org/packages/source/e/entrypoints/entrypoints-{{ version }}.tar.gz
+  sha256: d20f81bbede59ef98413acd25e96393f37d394688ef4d840420a98fb7c02fbf7
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
