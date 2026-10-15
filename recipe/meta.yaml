@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: entrypoints
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/e/entrypoints/entrypoints-{{ version }}.tar.gz
-  sha256: d20f81bbede59ef98413acd25e96393f37d394688ef4d840420a98fb7c02fbf7
+  sha256: 3bebd9a2cd05e08b123be74c277b36de4a38e899dba6a84ac9962ebe0c22ece6
 
 build:
   noarch: python
