@@ -3,11 +3,13 @@ About entrypoints-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/entrypoints-feedstock/blob/main/LICENSE.txt)
 
-Home: https://entrypoints.readthedocs.io/
+Home: https://github.com/takluyver/entrypoints
 
 Package license: MIT
 
-Summary: Discover and load entry points from installed packages
+Summary: Discover and load entry points from installed packages.
+
+Documentation: https://entrypoints.readthedocs.io/en/latest/
 
 Current build status
 ====================
